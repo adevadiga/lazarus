@@ -1,20 +1,19 @@
 package com.anoop;
 
-import com.anoop.arraysandstrings.CheckPermutation;
-import com.anoop.arraysandstrings.PalindromePermutation;
-import com.anoop.arraysandstrings.StringCompression;
-import com.anoop.arraysandstrings.StringRotation;
-import com.anoop.arraysandstrings.URLify;
-import com.anoop.arraysandstrings.UniqueCharInString;
+import com.anoop.linkedlist.basic.Palindrome2;
+import com.anoop.linkedlist.basic.SumList;
 
 public class Runner {
     public static void main(String[] args) {
 
-        StringRotation.isSubString("anoop", "no");
-        StringRotation.isSubString("anoop", "op");
-        StringRotation.isSubString("anoop", "an");
-        StringRotation.isSubString("anoop", "ap");
-        StringRotation.isSubString("anoop", "n");
+        Palindrome2.test();
+        // SumList.sumIt();
+        // Partition.testMe();
+        // StringRotation.isSubString("anoop", "no");
+        // StringRotation.isSubString("anoop", "op");
+        // StringRotation.isSubString("anoop", "an");
+        // StringRotation.isSubString("anoop", "ap");
+        // StringRotation.isSubString("anoop", "n");
 
         // StringCompression.compress("aabcccccaaa");
         // StringCompression.compress("anoop");
