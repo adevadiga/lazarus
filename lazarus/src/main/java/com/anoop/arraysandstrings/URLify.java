@@ -1,5 +1,9 @@
 package com.anoop.arraysandstrings;
 
+/*
+* Basic idea is to count how many space char are there and reserve that much space in array. 
+* Then go over character from last index
+*/
 public class URLify {
     static final String SPACE = "%20";
 
